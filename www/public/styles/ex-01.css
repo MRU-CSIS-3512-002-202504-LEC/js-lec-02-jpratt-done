@@ -1,0 +1,46 @@
+/* General Body Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    line-height: 1.5;
+    margin: 20px;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    min-height: 50vh;
+    margin: 0 auto;
+}
+
+
+/* Tic-Tac-Toe Board Styling */
+.mini-tic-tac-board {
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.mini-tic-tac-board th {
+    font-size: 1.3rem;
+}
+
+/* Table Cell (Square) Styling */
+.mini-tic-tac-board td {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #333;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #555;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

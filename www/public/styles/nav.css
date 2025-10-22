@@ -1,0 +1,26 @@
+.home-nav {
+    font-size: 1.3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+    z-index: 1030;
+    text-decoration: none;
+    font-weight: 500;
+    color: #495057;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.home-nav:hover {
+    background-color: #e9ecef;
+    color: #0056b3;
+}
+
+/* Add padding to the top of the body to prevent content from being hidden by the fixed nav */
+body {
+    padding-top: 60px;
+}
